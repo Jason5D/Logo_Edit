@@ -19,7 +19,9 @@ function App() {
 
   return (
     <div style={style}>
+      <div id='logo'>
       <Logo />
+      </div>
       <input
         type="range"
         min="0"

@@ -1,9 +1,21 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#logo {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
 
 p {
   display: block;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 10rem;
   border: 1px solid var(--black);
   color: var(--black);
