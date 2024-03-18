@@ -1,8 +1,8 @@
 import './Logo.css'
 
-const Logo = () => {
+const Logo = ({style}) => {
   return (
-    <div>
+    <div style={style}>
       <p>Atedo</p>
     </div>
   )
